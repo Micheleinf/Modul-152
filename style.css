@@ -1,0 +1,97 @@
+body{
+    background-color: black ;
+}
+.text1{
+    text-align: left;
+    background-color:black ;
+    color: white;
+}
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .images{
+      
+      height: 600px;
+      width: 100%;
+  }
+
+  .nibba {
+      height: 10%;
+  }
+  #panel, #flip {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+
+  #moin, #kor1 #kor2{
+    color: white;
+  }
+
+  #raining{
+    text-align: center;
+  }
+  
+  #carouselExampleIndicators{
+    margin-top: 50px;
+  }
+
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
